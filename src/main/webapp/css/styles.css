@@ -1,0 +1,95 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	padding: 20px;
+	background: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+}
+
+h2 {
+	color: #007BFF;
+	text-align: center;
+}
+/* Basic styling for the tooltip-triggering words */
+.tooltip-trigger {
+	color: #007BFF;
+	text-decoration: none;
+	transition: color 0.3s ease, text-shadow 0.3s ease;
+	cursor: pointer;
+}
+
+/* Light up effect on hover */
+.tooltip-trigger:hover {
+	color: #0056b3;
+	text-shadow: 0 0 5px rgba(0, 123, 255, 0.7);
+}
+
+.section {
+	margin-bottom: 20px;
+	padding: 15px;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	background: #fafafa;
+}
+
+.section h3 {
+	color: #333;
+	margin-top: 0;
+}
+
+form label {
+	display: block;
+	margin: 8px 0 4px;
+	font-weight: bold;
+}
+
+form input {
+	width: calc(100% - 22px);
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+form button {
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	color: #fff;
+	background-color: #007BFF;
+	cursor: pointer;
+}
+
+form button:hover {
+	background-color: #0056b3;
+}
+
+.messages {
+	text-align: center;
+}
+
+.messages p {
+	padding: 10px;
+	border-radius: 4px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.error {
+	color: red;
+	background-color: #fdd;
+}
+
+.success {
+	color: green;
+	background-color: #dfd;
+}
